@@ -7,7 +7,7 @@ Forwarding of IP address from non-routable network to routable IP address. Addin
 
 ```<time_h>``` - parameter to disable IPMI acount and remove forwarding rules in given time (hours). This can be optional and calls ipmiremove.sh from main script after a given time
 
-Note: This script used and tested under Debian 10, in script used name of the network interface (ens192), in case of various interface this part needs to be edited
+Note: This script used and tested under Debian 10, and includes name of the network interface (ens192), in case of various interface this part needs to be edited
 
 ### Prerequisites
 * Enable ipv4 forwarding in /etc/sysctl.conf by adding net.ipv4.ip_forward = 1
