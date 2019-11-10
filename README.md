@@ -3,6 +3,7 @@ Forwarding of IP address from non-routable network to routable IP address. Addin
 
 ## Using
 ```ipmiaccess.sh <ipmi_ip> <ipmi_admin_pass> <ipmi_user_login> <time_h {optional}>```
+
 ```ipmiremove.sh <ipmi_ip> <ipmi_admin_pass>```
 
 ```<time_h>``` - parameter to disable IPMI acount and remove forwarding rules in given time (hours). This can be optional and calls ipmiremove.sh from main script after a given time
